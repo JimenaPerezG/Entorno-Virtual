@@ -1,2 +1,0 @@
-Registrando actividad numero 2 de GitBash (desde Programacion M)
-Actualizacion del archivo, se realizaron commits y se comprobaron datos
