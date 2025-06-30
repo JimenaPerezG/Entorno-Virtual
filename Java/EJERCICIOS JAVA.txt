@@ -1,0 +1,146 @@
+EJERCICIOS JAVA
+
+//CLASE 7 OPERADORES DE ASIGNACION
+	int varNum1 = 1, varNum2 = 4;
+	var varNum3 = varNum1 +6 -varNum2; //Una operación
+	System.out.println("varNum3 = "+varNum3);
+
+	varNum1 += 1; //
+	System.out.println("varNum1 = "+ varNum1);
+
+//	-=  *=  /=  %=
+
+	varNum2 -= 2;
+	System.out.println("varNum2 = "+ varNum2);
+	varNum1 *= 5;
+	System.out.println("varNum1 = "+ varNum1);
+	varNum3 /= 4;
+	System.out.println("varNum3 = "+ varNum3);
+	varNum1 %= 6;
+	System.out.println("varNum1 = "+ varNum1);
+
+//Clase 8 
+
+//Sacar área y perímetro de un rectángulo
+import java.util.Scanner;
+
+public class Rectangulo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedimos los datos
+        System.out.print("Ingrese la base del rectángulo: ");
+        double base = scanner.nextDouble();
+
+        System.out.print("Ingrese la altura del rectángulo: ");
+        double altura = scanner.nextDouble();
+
+        // Cálculos
+        double area = base * altura;
+        double perimetro = 2 * (base + altura);
+
+        // Resultados
+        System.out.println("Área del rectángulo: " + area);
+        System.out.println("Perímetro del rectángulo: " + perimetro);
+
+        scanner.close();
+    }
+}
+
+//El mayor de dos números (Operador Ternario)
+import java.util.Scanner;
+
+public class MayorDeDos {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ingreso de números
+        System.out.print("Ingrese el primer número: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Ingrese el segundo número: ");
+        int num2 = scanner.nextInt();
+
+        // Uso del operador ternario
+        int mayor = (num1 > num2) ? num1 : num2;
+
+        // Resultado
+        System.out.println("El número mayor es: " + mayor);
+
+        scanner.close();
+    }
+}
+
+//Clase 9
+//Ejercicio 5: Calcular e imprimir calificaciones
+
+package Ejercicio5;
+
+impor java.util.Scaner;
+
+public class Ejercicio5 {
+	public static void main (String [] args) {
+		Scanner ENTRADA = new Scanner (System.in);
+		float nota1,nota2,nota3,suma;
+
+		//Guardamos las tres notas
+		System.out.println("Digite las tres calificaciones: ");
+		nota1 = Float.parseFloat(entrada.nextLine());
+		nota2 = Float.parseFloat(entrada.nextLine());
+		nota3 = Float.parseFloat(entrada.nextLine());
+
+		suma = nota1 + nota2 + nota3;
+		
+		System.out.println("\nLa suma es: "+suma);
+	}
+}
+
+//Ejercicio 6:Calcular la cantidad de dinero
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		float Guillermo, Luis.juan,total;
+		System.out.println("Digite la cantidad de dinero de Guillermo: ");
+		Guillermo = Float.parseFloat(entrada.nextLine());
+
+		luis = guillermo / 2;
+		juan = (luis + guillermo)/ 2;
+		total = luis + Guillermo + juan;
+		System.out.println(\nEl dinero de Luis es: US$"+Luis);
+		System.out.println(\nEl dinero de Juan es: US$"+juan);
+		System.out.println(\nEl dinero entre los tres es: US$+total);
+	}
+}
+
+//Ejercicio 7: Calcular salario
+
+import java.util.Scanner;
+
+public class Ejercicio7 {
+
+	public static void main(String[] args) {
+		Scaner entrada = new Scanner(System.in);
+		final int salario = 1000;
+		int comisión = 150, venta;
+		float salarioMensual, ventaCarro, porcVenta, totalPrecio;
+
+		System.out.print("Digite la cantidad de carros vendidos: ");
+		venta = Interger.parseInt(entrada.nextLine());
+		System.out.print("Digite el precio de un carro: ");
+		ventaCarro = Float.parseFloat(entrada.nextLine());
+
+		comisión *= venta;
+		totalPrecio = ventaCarro * venta;
+		porcVenta = totalPrecio * 0.05f;
+		salarioMensual = salario + comision + porcVenta;
+
+		System.out.println("\nEl salario mensual es: " + salarioMensual);
+	}
+}
+
+//clase 10
+
+		
