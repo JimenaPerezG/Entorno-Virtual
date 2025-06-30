@@ -1,2 +1,3 @@
 Bienvenido, mi nombre es Jimena
 Nueva linea, para actualizar archivo
+Modificamos el archivo nuevamente luego de probar git reset: soft y hard
