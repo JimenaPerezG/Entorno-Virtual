@@ -1,3 +1,5 @@
-Bienvenido, mi nombre es Jimena
-Nueva linea, para actualizar archivo
-Modificamos el archivo nuevamente luego de probar git reset: soft y hard
+-Bienvenido, mi nombre es Jimena
+-Nueva linea, para actualizar archivo
+-Modificamos el archivo nuevamente luego de probar git reset: soft y hard
+-git checkout master #Volvemos a la versión master del archivo historia.txt
+git checkout hash #Volvemos a hacer esto y cambiamos cosas del archivo
